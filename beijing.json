@@ -5,6 +5,7 @@
     [
         {
             "name":"1号线",
+            "loop":false,
             "linenum":1,
             "station_num":36,
             "stations":
@@ -182,6 +183,105 @@
                 {
                     "station_name":"环球度假区",
                     "transfer": [7],
+                    "message": null
+                }
+            ]
+        },
+        {
+            "name":"2号线",
+            "loop":true,
+            "linenum":2,
+            "station_num":18,
+            "stations":
+            [
+                {
+                    "station_name":"积水潭",
+                    "transfer": [19],
+                    "message": null
+                },
+                {
+                    "station_name":"西直门",
+                    "transfer": [4,13],
+                    "message": null
+                },
+                {
+                    "station_name":"车公庄",
+                    "transfer": [6],
+                    "message": null
+                },
+                {
+                    "station_name":"阜成门",
+                    "transfer": [0],
+                    "message": null
+                },
+                {
+                    "station_name":"复兴门",
+                    "transfer": [1],
+                    "message": null
+                },
+                {
+                    "station_name":"长椿街",
+                    "transfer": [0],
+                    "message": null
+                },
+                {
+                    "station_name":"宣武门",
+                    "transfer": [4],
+                    "message": null
+                },
+                {
+                    "station_name":"和平门",
+                    "transfer": [0],
+                    "message": null
+                },
+                {
+                    "station_name":"前门",
+                    "transfer": [8],
+                    "message": null
+                },
+                {
+                    "station_name":"崇文门",
+                    "transfer": [5],
+                    "message": null
+                },
+                {
+                    "station_name":"北京站",
+                    "transfer": [0],
+                    "message": null
+                },
+                {
+                    "station_name":"建国门",
+                    "transfer": [1],
+                    "message": null
+                },
+                {
+                    "station_name":"朝阳门",
+                    "transfer": [6],
+                    "message": null
+                },
+                {
+                    "station_name":"东四十条",
+                    "transfer": [0],
+                    "message": null
+                },
+                {
+                    "station_name":"东直门",
+                    "transfer": [13,1000],
+                    "message": null
+                },
+                {
+                    "station_name":"雍和宫",
+                    "transfer": [5],
+                    "message": null
+                },
+                {
+                    "station_name":"安定门",
+                    "transfer": [0],
+                    "message": null
+                },
+                {
+                    "station_name":"鼓楼大街",
+                    "transfer": [8],
                     "message": null
                 }
             ]
