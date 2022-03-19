@@ -1,0 +1,13 @@
+{
+	"station": {
+		"prefix": "station",
+		"body": [
+			"{",
+			"\t\"station_name\":\"$0\",",
+			"\t\"transfer\":[0],",
+			"\t\"message\":null",
+			"},"
+		],
+		"description": "Log output to console"
+	}
+}
