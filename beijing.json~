@@ -509,38 +509,8 @@
                 {
                     "station_name":"大屯路东",
                     "transfer": [15],
-					"message":null
-                },
-				{
-					"station_name":"惠新西街北口",
-					"transfer": [0],
-					"message":null
-				},
-				{
-					"station_name":"惠新西街南口",
-					"transfer": [10],
-					"message":null
-				},
-				{
-					"station_name":"和平西桥",
-					"transfer": [0],
-					"message":null
-				},
-				{
-					"station_name":"和平里北街",
-					"transfer": [0],
-					"message":null
-				},
-				{
-					"station_name":"雍和宫",
-					"transfer": [2],
-					"message":null
-				},
-				{
-					"station_name":"北新桥",
-					"transfer": [1001],
-					"message":null
-				}
+                    "message":null
+                }
             ]
         },
         {
