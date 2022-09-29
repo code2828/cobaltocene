@@ -5,3 +5,4 @@ whatever
 *.dSYM/
 *.o
 *.a
+user_snippets_for_vscode/
