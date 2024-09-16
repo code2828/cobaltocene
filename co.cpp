@@ -4,7 +4,6 @@
 #include<filesystem>
 #include<fstream>
 #include<string>
-#include"json.hpp"
 
 #define rf() wrefresh(stdscr)
 #define mv(x,y) wmove(stdscr,(y),(x))

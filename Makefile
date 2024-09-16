@@ -4,6 +4,6 @@ LD=ld
 LDFLAGS=-lc -lc++ -lstdc++ -lm -lncurses -lncurses_g -lncurses++ -lncurses++_g -ljemalloc
 
 db_exe: db_obj
-	$(LD) $(LDFLAGS) *.o -o whatever
+	$(LD) $(LDFLAGS) *.o -o cobaltocene
 db_obj:
 	$(CXX) $(CXXFLAGS) -c -g3 *.cpp
