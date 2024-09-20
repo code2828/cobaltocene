@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cimg/base:current
+    steps:
+      - checkout
+      - run: make db_exe
+      - store_artifacts:
+          path: cobaltocene
+
+workflows:
+  default:
+    jobs:
+      - build
