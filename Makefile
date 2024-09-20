@@ -1,12 +1,10 @@
 CXX=g++
-CXXFLAGS=-Wall -Wextra -std=c++2a
-LD=ld
+CXXFLAGS=-Wall -Wextra -std=c++17
+SRC=cocp2.cpp
 LDFLAGS=-lc -lstdc++
-PROJ=cobaltocene
+EXE=cobaltocene
 
 run: db_exe
-	./$(PROJ)
-db_exe: db_obj
-	$(LD) $(LDFLAGS) *.o -o $(PROJ)
-db_obj:
-	$(CXX) $(CXXFLAGS) -c -g3 *.cpp
+	./$(EXE)
+db_exe:
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -g3 $(SRC) -o $(EXE)
