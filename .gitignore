@@ -2,6 +2,7 @@
 *.un~
 *~
 cobaltocene
+cocp2
 *.dSYM/
 *.o
 *.a
