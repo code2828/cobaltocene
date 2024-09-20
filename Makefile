@@ -1,7 +1,7 @@
 CXX=g++
 CXXFLAGS=-Wall -Wextra -std=c++2a
 LD=ld
-LDFLAGS=-lc -lc++
+LDFLAGS=-lc -lstdc++
 PROJ=cobaltocene
 
 run: db_exe
