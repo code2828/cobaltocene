@@ -13,7 +13,7 @@ struct element
     double mass;
 };
 
-inline void s(string, string, double, vector<element>&);
+void s(string, string, double, vector<element>&);
 
 void register_elements(vector<element>&);
 

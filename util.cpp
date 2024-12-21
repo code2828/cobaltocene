@@ -3,15 +3,24 @@
 
 using namespace std;
 
-// quick element add to vector
-inline void s(string _, string a, double b, vector<element>& e)
+// quick element add to vector (or override)
+void s(string _, string a, double b, vector<element>& e)
 {
     element c;
     c.name = a;
     c.n = e.size() + 1;
     c.symbol = _;
     c.mass = b;
-    e.push_back(c);
+    int ind = find_symbol(e, _);
+    if(ind != -1)
+    {
+        e[ind] = c;
+    }
+    else
+    {
+        e.push_back(c);
+    }
+    return;
 }
 
 void register_elements(vector<element>& e)

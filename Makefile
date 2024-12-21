@@ -5,6 +5,6 @@ LDFLAGS=-lc -lstdc++
 EXE=cobaltocene
 
 run: db_exe
-	./$(EXE) "Fe(CF3SO3)2"
+	./$(EXE) "(NH4)2(Ce(NO3)6)"
 db_exe:
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -g3 $(SRC) -o $(EXE)
